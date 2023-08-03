@@ -27,32 +27,5 @@ echo $total;
 */
 
 
-// Create a script to construct the following pattern, using a nested for loop.
-//*
-//* *
-//* * *
-//* * * *
-//* * * * *
-//* * * * *
-//* * * *
-//* * *
-//* *
-//*
 
-$n=5;
-for($i=1; $i<=$n; $i++)
-{
-    for($j=1; $j<=$i; $j++)
-    {
-        echo ' * ';
-    }
-    echo "\n";
-}
-for ($a=$n; $a>=1; $a--){
-    for($c=1; $c<=$a; $c++)
-    {
-        echo ' * ';
-    }
-    echo "\n";
-}
 ?>
